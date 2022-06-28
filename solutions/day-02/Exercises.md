@@ -21,7 +21,7 @@ HTML pages linked together
 #### Exercises: JSX
 
 1. What is an HTML element?
-Create 
+HTML document component
 2. How to write a self closing HTML element?
 3. What is an HTML attribute? Write some of them
 4. What is JSX?
