@@ -2,15 +2,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // To get the root element from the HTML document
-import tree from "./images/tree.jpeg";
-import frontend from "./images/frontend_technologies.png";
+import html from "./images/html.png"
+// import css-pic from "./images/css.png"
+// import js-pic from "./images/js.png"
+// import react-pic from "./images/react.jpeg"
 
-// Styling
+
 const subscribeWrapper = {
     background: '#c2e6f4', }
 
 // JSX element, tech
-const tech = <img src={frontend} alt="tree" />;
+const tech = <img src={html} alt="tree" />;
 
 const subscribe = (
   <div style={subscribeWrapper}>
@@ -27,7 +29,7 @@ const subscribe = (
 const app = (
   <div className="app">
     {tech}
-    {subscribe}
+    {/* {subscribe} */}
     {/* {num3} */}
   </div>
 );
