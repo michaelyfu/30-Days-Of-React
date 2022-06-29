@@ -2,17 +2,28 @@
 import React from "react";
 import ReactDOM from "react-dom";
 // To get the root element from the HTML document
-import html from "./images/html.png"
-// import css-pic from "./images/css.png"
-// import js-pic from "./images/js.png"
-// import react-pic from "./images/react.jpeg"
-
+import html from "./images/html.png";
+import css from "./images/css.png";
+import js from "./images/js.png";
+import react from "./images/react.jpg";
 
 const subscribeWrapper = {
-    background: '#c2e6f4', }
+  background: "#c2e6f4",
+};
+
+const technology = {
+  width:'20wv'
+};
 
 // JSX element, tech
-const tech = <img src={html} alt="tree" />;
+const tech = (
+  <div style={technology}>
+    <img src={html} alt="html" />
+    <img src={css} alt="css" />
+    <img src={js} alt="js" />
+    <img src={react} alt="react" />
+  </div>
+);
 
 const subscribe = (
   <div style={subscribeWrapper}>
